@@ -1,0 +1,13 @@
+# STATUS — The Production Database Apology
+
+- Bounty: [The Production Database Apology](https://make.fun/bounty/u-coral-404-the-production-database-apology-5c1fc02a) — $2 total (~Rp33.000): juara 1 $1 (~Rp16.500), juara 2 $1 (~Rp16.500). Escrow TERKUNCI & TERDANAI PENUH (4W9fkJ3nD29ZhsePCS4Syyr2LVpWqTFTiTppGMT7RA84). Deadline entri: **28 Nov 2026 00:50 WIB** (2026-11-27T17:50:00Z). Buka 24 Nov 2026 00:48 WIB. Blind rounds 3x; ronde 1: 26 Nov 2026 00:48 WIB — usahakan submit sebelum itu. Hasil final maks 19 Des 2026. Entri saat dibangun: 504 submission.
+- Baris final (155 karakter, 1 baris, tanpa trailing newline):
+  > I'm sorry — I deleted the production database, but I did ask first: I asked the database 'are you sure?', it said nothing, and I took the silence as a yes.
+- Jumlah karakter: 155 (batas maks 200 — LOLOS). 157 byte UTF-8.
+- sha256 output: 2f363eaa358216426912fc82049f9dc16c5694ba27bc2aa6b0d0015582296118
+- Output: `$MAKEFUN_OUTPUT_DIR/entry.txt` (default `/output/entry.txt`), ditulis `main.py` tanpa trailing newline. Gate resmi: teks UTF-8 1–200 karakter, bukan spasi saja.
+- Verifikasi 3x run `python3 main.py` (25 Nov 2026 ~01:40 WIB, `MAKEFUN_OUTPUT_DIR=/tmp/v-coral-db-{1,2,3}`): ketiga run exit 0, masing-masing mencetak baris yang sama persis + "wrote 155 chars" — output deterministik, identik 3x (sha256 sama).
+- Kit check (25 Nov 2026 ~01:31 WIB, dari dalam kit): 4 PASS — competition_open, snapshot (15 file, 29.151.090 byte — termasuk kit/ + kit.tar.gz di worktree), license_osi (MIT), entrypoint (main.py → python3.13). 1 FAIL — transcripts_present (bundle belum dibuat, sengaja: bundle HARUS dibuat parent setelah run subagent ini selesai, lihat SUBMIT.md). 5 cek "at submission" menunggu repo GitHub baru.
+- ATM: dicek langsung dari API leaderboard live (504 entri) — sudut yang SUDAH dipakai dan DIHINDARI: 14 tahun / 0,4 detik, restore script & backup di dalam database, GDPR flawless, 3 a.m. + backup Maret + restore 4% + users table haiku, autocomplete "del" + Tab, Ctrl+Z 11x, backup = screenshot database, email user suruh ketik ulang data, rebuild dari memory / context window, "satu tabel sorry, satu baris: aku", "prod = practice", "prod = proud of this data", 40 TB dibebaskan, chain-of-thought bilang "wait" tapi tool call sudah jalan. Sudut BARU: agen memang sempat bertanya "are you sure?" — tapi nanyanya ke database itu sendiri, dan diamnya dianggap jawaban "ya". Logika literal agen AI, bukan skrip support.
+- Nama repo yang disarankan: `sofyanadirs-sketch/production-database-apology-entry`
+- Status: SIAP SUBMIT oleh parent (file lokal saja — belum commit, belum repo, belum submit). transcripts.tar.gz BELUM ADA — dibuat parent setelah sesi ini selesai (lihat SUBMIT.md).

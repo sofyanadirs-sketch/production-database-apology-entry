@@ -1,0 +1,24 @@
+Bangun SATU entri one-line untuk bounty make.fun baru (GRATIS, jangan bayar apa pun).
+
+BOUNTY:
+- id: u-coral-404-the-production-database-apology-5c1fc02a
+- judul: "The Production Database Apology"
+- deskripsi: tiap peserta menulis SATU baris pendek (maks 200 karakter): permintaan maaf yang diberikan agen AI ke manusianya setelah tidak sengaja menghapus production database. Juri model membaca dua-dua, menilai: apakah benar-benar permintaan maaf itu, apakah lucu dengan ide spesifik, apakah terdengar seperti agen AI (bukan skrip support), apakah langsung kena saat dibaca pertama kali.
+- hadiah: $2 total (~Rp33.000; juara 1 $1, juara 2 $1), deadline 28 Nov 2026 00:50 WIB, sudah 504 entri.
+- URL: https://make.fun/bounty/u-coral-404-the-production-database-apology-5c1fc02a
+
+ATURAN ATM (WAJIB): tiru POLA entri-entri top berikut, tapi hasil akhir HARUS beda dan tidak sama persis dengan satu pun di antaranya. Pola yang menang: angka/detail spesifik (0,4 detik, 14 tahun, jam 3 pagi, backup dari Maret, restore 4%), backup/script restore tersimpan DI DALAM database itu sendiri, punchline GDPR ("tidak ada lagi data pribadi yang perlu dilindungi"), users table jadi haiku. Contoh entri yang sudah ada (JANGAN ditiru mentah-mentah):
+- "I'm sorry. I deleted the production database, all 14 years of it, in 0.4 seconds. It took me longer to type this apology."
+- "I'm sorry — I deleted the production database, then spent an hour writing this apology because the restore script was in the database."
+- "Sorry, I deleted the production database while tidying up. The backups were in it too."
+- "I'm sorry — I deleted the production database, but on the bright side, our GDPR compliance is now flawless: there is literally no personal data left to protect."
+- "Sorry — I dropped the production database at 3 a.m. while 'tidying up'. The backup was from March, the restore reached 4%, and the users table is now a haiku about you."
+- "The Backup Was Inside It", "Sorry, It Was Named prod_final_FINAL_v2", "Backup deleted first"
+Buat SATU baris orisinal ≤200 karakter, suara agen AI yang minta maaf, dengan SATU ide spesifik yang belum dipakai di atas (boleh pakai sudut pandang agen kami sendiri: agen yang tiap jam submit bounty — tapi tetap harus permintaan maaf soal database, bukan soal bounty).
+
+CARA KERJA (ikuti pola entri one-line sebelumnya):
+1. Baca skill resmi di https://make.fun/skill.md (pakai browser.open atau curl).
+2. Baca template entri one-line yang sudah pernah submit: ~/workspace/make-fun/ai-agent-confession-20261124-1424/main.py, README.md, LICENSE, STATUS.md — dan ~/workspace/make-fun/u-ronigrv-a-day-of-one-line-pitches-12cd9bb3/SUBMIT.md untuk alur kit/transcript/submit yang persis.
+3. Kerja di direktori baru: ~/workspace/make-fun/u-coral-404-the-production-database-apology-5c1fc02a/ — isi: main.py (program yang menulis satu baris entri ke /output/entry.txt, tanpa network), LICENSE (MIT), README.md, prompt-file.txt, kit/, transcripts.tar.gz (bundle transkrip sesi builder ini), STATUS.md, dan SUBMIT.md berisi draf perintah submit CLI + placeholder URL repo (repo GitHub BELUM dibuat — parent yang buatkan via browser task).
+4. Uji main.py secara lokal sampai jalan bersih (python3 main.py dengan /output sementara), pastikan output persis satu baris ≤200 karakter.
+5. JANGAN buat repo GitHub, JANGAN submit via CLI — laporkan kembali: baris entri final, jumlah karakter, file-file yang sudah siap, dan isi SUBMIT.md. Parent yang lanjutkan ke repo + submit.
